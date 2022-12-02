@@ -1,12 +1,16 @@
 * {
     margin: 0;
     padding: 0;
+   
 }
 body {
+
     background-color: #1E1E2C;
     display: flex;
     justify-content: center;
+    align-content: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+ 
 }
 .container{
     
@@ -30,6 +34,12 @@ body {
 .container form fieldset div{
     margin: 5px ;
 }
+.container form input[type=text]{
+    margin: 10px;
+    border: none;
+    width: 90%;
+    height: 25px;
+}
 .container form input[type=submit]{
 
     background-color: #F7444E;
@@ -40,6 +50,12 @@ body {
     height: 50px;
 
 }
-h3, h1, label, p {
+.container form h4{
     color: #EEEE;
+    margin: 15px;
+}
+h3, h1, h4, h2,  label, p {
+    color: #EEEE;
+
+
 }

@@ -3,8 +3,8 @@ session_start();
 $_SESSION['password'] = "";
 $quantidade_caracter = $_POST['qtdcaracter'];
 
-$letras_minusculas = range('A', 'Z'); 
-$letras_maiusculas = range('a', 'z'); 
+$letras_minusculas = range('a', 'z'); 
+$letras_maiusculas = range('A', 'Z'); 
 $numeros = range("0", "9");
 $simbolos = ['!', '@', '#', '%', '%',  '&', '*'];
 
